@@ -1,0 +1,1055 @@
+# Persian (Farsi) translations for Forooshyar Plugin
+# Copyright (C) 2024 Forooshyar
+# This file is distributed under the same license as the Forooshyar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Forooshyar 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-06 12:00+0000\n"
+"PO-Revision-Date: 2024-12-06 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Plugin Information
+msgid "Forooshyar"
+msgstr "فروشیار"
+
+msgid "WooCommerce Product API for Third-party Services"
+msgstr "API محصولات ووکامرس برای سرویس‌های شخص ثالث"
+
+# Admin Menu
+msgid "Forooshyar Settings"
+msgstr "تنظیمات فروشیار"
+
+msgid "API Monitor"
+msgstr "مانیتور API"
+
+msgid "Forooshyar Management Panel"
+msgstr "پنل مدیریت فروشیار"
+
+msgid "WooCommerce Product API Configuration and Settings"
+msgstr "تنظیمات و پیکربندی API محصولات ووکامرس"
+
+msgid "Forooshyar API Monitor"
+msgstr "مانیتور API فروشیار"
+
+msgid "Real-time API Response Monitoring and Testing"
+msgstr "مشاهده و تست پاسخ‌های API در زمان واقعی"
+
+# Navigation Tabs
+msgid "General"
+msgstr "عمومی"
+
+msgid "Product Fields"
+msgstr "فیلدهای محصول"
+
+msgid "Images"
+msgstr "تصاویر"
+
+msgid "Cache"
+msgstr "کش"
+
+msgid "API Limits"
+msgstr "محدودیت‌های API"
+
+msgid "Advanced"
+msgstr "پیشرفته"
+
+# General Settings
+msgid "Show Variations"
+msgstr "نمایش تنوع‌ها"
+
+msgid "Should product variations be included in API responses?"
+msgstr "آیا تنوع‌های محصولات در پاسخ API گنجانده شوند؟"
+
+msgid "Title Template"
+msgstr "قالب عنوان"
+
+msgid "Template for generating product titles. Use the variables below:"
+msgstr "قالب برای تولید عنوان محصولات. از متغیرهای زیر استفاده کنید:"
+
+msgid "Available Variables:"
+msgstr "متغیرهای قابل استفاده:"
+
+msgid "Product Name"
+msgstr "نام محصول"
+
+msgid "Variation Name"
+msgstr "نام تنوع"
+
+msgid "Category"
+msgstr "دسته‌بندی"
+
+msgid "Product Code"
+msgstr "کد محصول"
+
+msgid "Brand"
+msgstr "برند"
+
+msgid "Custom Suffix"
+msgstr "پسوند سفارشی"
+
+msgid "Custom text to be added to the end of titles"
+msgstr "متن سفارشی که به انتهای عناوین اضافه می‌شود"
+
+msgid "Default Language"
+msgstr "زبان پیش‌فرض"
+
+msgid "Persian"
+msgstr "فارسی"
+
+msgid "English"
+msgstr "انگلیسی"
+
+msgid "Default language for user interface and error messages"
+msgstr "زبان پیش‌فرض برای رابط کاربری و پیام‌های خطا"
+
+msgid "API Version"
+msgstr "نسخه API"
+
+msgid "Version 1"
+msgstr "نسخه ۱"
+
+msgid "API version used in endpoint URLs"
+msgstr "نسخه API که در URL نقاط پایانی استفاده می‌شود"
+
+msgid "Debug Mode"
+msgstr "حالت اشکال‌زدایی"
+
+msgid "Enable detailed logging for debugging"
+msgstr "فعال‌سازی لاگ‌گیری تفصیلی برای اشکال‌زدایی"
+
+# Product Fields Settings
+msgid "Product Field Selection"
+msgstr "انتخاب فیلدهای محصول"
+
+msgid "Select which fields you want to include in API responses. All fields are enabled by default."
+msgstr "فیلدهایی که می‌خواهید در پاسخ‌های API گنجانده شوند را انتخاب کنید. همه فیلدها به طور پیش‌فرض فعال هستند."
+
+msgid "Core Fields"
+msgstr "فیلدهای اصلی"
+
+msgid "Select Product Fields"
+msgstr "انتخاب فیلدهای محصول"
+
+msgid "Quick Actions"
+msgstr "عملیات سریع"
+
+msgid "Select All"
+msgstr "انتخاب همه"
+
+msgid "Deselect All"
+msgstr "لغو انتخاب همه"
+
+msgid "Reset to Default"
+msgstr "بازگردانی به پیش‌فرض"
+
+msgid "Custom Fields"
+msgstr "فیلدهای سفارشی"
+
+msgid "Enter custom fields as JSON"
+msgstr "فیلدهای سفارشی را به صورت JSON وارد کنید"
+
+msgid "Additional custom fields to extract from product meta fields. Format: {\"field_name\": \"meta_key\"}"
+msgstr "فیلدهای سفارشی اضافی که می‌خواهید از متافیلدهای محصول استخراج شوند. فرمت: {\"field_name\": \"meta_key\"}"
+
+msgid "Field Mapping"
+msgstr "نگاشت فیلدها"
+
+msgid "Enter field mapping as JSON"
+msgstr "نگاشت نام فیلدها را به صورت JSON وارد کنید"
+
+msgid "Use to rename fields in API responses. Format: {\"old_name\": \"new_name\"}"
+msgstr "برای تغییر نام فیلدها در پاسخ API استفاده کنید. فرمت: {\"old_name\": \"new_name\"}"
+
+msgid "Invalid JSON format"
+msgstr "فرمت JSON نامعتبر است"
+
+# Field Names
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Subtitle"
+msgstr "زیرعنوان"
+
+msgid "Parent ID"
+msgstr "شناسه والد"
+
+msgid "Unique Page ID"
+msgstr "شناسه یکتای صفحه"
+
+msgid "Current Price"
+msgstr "قیمت فعلی"
+
+msgid "Old Price"
+msgstr "قیمت قبلی"
+
+msgid "Availability"
+msgstr "موجودی"
+
+msgid "Category Name"
+msgstr "نام دسته‌بندی"
+
+msgid "Image Links"
+msgstr "لینک‌های تصاویر"
+
+msgid "Main Image Link"
+msgstr "لینک تصویر اصلی"
+
+msgid "Page URL"
+msgstr "آدرس صفحه"
+
+msgid "Short Description"
+msgstr "توضیح کوتاه"
+
+msgid "Specifications"
+msgstr "مشخصات"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "Registry"
+msgstr "رجیستری"
+
+msgid "Guarantee"
+msgstr "گارانتی"
+
+# Image Settings
+msgid "Image Sizes"
+msgstr "اندازه‌های تصویر"
+
+msgid "Thumbnail"
+msgstr "تصویر کوچک"
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Large"
+msgstr "بزرگ"
+
+msgid "Full Size"
+msgstr "اندازه کامل"
+
+msgid "Maximum Images per Product"
+msgstr "حداکثر تصاویر هر محصول"
+
+msgid "Image Quality"
+msgstr "کیفیت تصویر"
+
+msgid "Compression quality for images (1-100)"
+msgstr "کیفیت فشرده‌سازی تصاویر (۱-۱۰۰)"
+
+# Cache Settings
+msgid "Cache Enabled"
+msgstr "کش فعال"
+
+msgid "Enable caching for better performance"
+msgstr "فعال‌سازی کش برای بهبود عملکرد"
+
+msgid "Cache Duration"
+msgstr "مدت زمان کش"
+
+msgid "Cache duration in seconds"
+msgstr "مدت زمان کش به ثانیه"
+
+msgid "Auto Invalidate Cache"
+msgstr "پاک‌سازی خودکار کش"
+
+msgid "Automatically clear cache when products are modified"
+msgstr "پاک‌سازی خودکار کش هنگام تغییر محصولات"
+
+msgid "Cache Storage Location"
+msgstr "محل ذخیره‌سازی کش"
+
+msgid "Database"
+msgstr "پایگاه داده"
+
+msgid "File System"
+msgstr "سیستم فایل"
+
+msgid "Memory (Redis/Memcached)"
+msgstr "حافظه (Redis/Memcached)"
+
+# API Limits
+msgid "Maximum Products per Page"
+msgstr "حداکثر محصولات در هر صفحه"
+
+msgid "Rate Limiting"
+msgstr "محدودیت نرخ درخواست"
+
+msgid "Requests per Minute"
+msgstr "درخواست در دقیقه"
+
+msgid "Requests per Hour"
+msgstr "درخواست در ساعت"
+
+msgid "Request Timeout"
+msgstr "مهلت زمانی درخواست"
+
+msgid "Timeout in seconds"
+msgstr "مهلت زمانی به ثانیه"
+
+msgid "IP Whitelist"
+msgstr "لیست سفید IP"
+
+msgid "Allowed IP addresses (one per line)"
+msgstr "آدرس‌های IP مجاز (یکی در هر خط)"
+
+msgid "IP Blacklist"
+msgstr "لیست سیاه IP"
+
+msgid "Blocked IP addresses (one per line)"
+msgstr "آدرس‌های IP مسدود (یکی در هر خط)"
+
+# Advanced Settings
+msgid "Custom Field Mapping"
+msgstr "نگاشت فیلدهای سفارشی"
+
+msgid "Database Query Optimization"
+msgstr "بهینه‌سازی کوئری پایگاه داده"
+
+msgid "Enable query optimization"
+msgstr "فعال‌سازی بهینه‌سازی کوئری"
+
+msgid "Response Compression"
+msgstr "فشرده‌سازی پاسخ"
+
+msgid "Enable GZIP compression"
+msgstr "فعال‌سازی فشرده‌سازی GZIP"
+
+msgid "Lazy Loading"
+msgstr "بارگذاری تنبل"
+
+msgid "Enable lazy loading for heavy data"
+msgstr "فعال‌سازی بارگذاری تنبل برای داده‌های سنگین"
+
+# Form Actions
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+msgid "Reset to Defaults"
+msgstr "بازگردانی به پیش‌فرض"
+
+msgid "Export Settings"
+msgstr "صادرات تنظیمات"
+
+msgid "Import Settings"
+msgstr "وارد کردن تنظیمات"
+
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr "آیا مطمئن هستید که می‌خواهید تمام تنظیمات را به حالت پیش‌فرض بازگردانید؟"
+
+msgid "Settings imported successfully"
+msgstr "تنظیمات با موفقیت وارد شد"
+
+msgid "Invalid settings file"
+msgstr "فایل تنظیمات نامعتبر است"
+
+# API Monitor
+msgid "API Test"
+msgstr "تست API"
+
+msgid "Endpoint"
+msgstr "نقطه پایانی"
+
+msgid "Parameters"
+msgstr "پارامترها"
+
+msgid "Required parameters are displayed based on selected endpoint"
+msgstr "پارامترهای مورد نیاز بر اساس نقطه پایانی انتخابی نمایش داده می‌شوند"
+
+msgid "Test API"
+msgstr "تست API"
+
+msgid "API Response"
+msgstr "پاسخ API"
+
+msgid "Response Time: "
+msgstr "زمان پاسخ: "
+
+msgid "Cache Status: "
+msgstr "وضعیت کش: "
+
+msgid "Status: "
+msgstr "وضعیت: "
+
+msgid "Size: "
+msgstr "اندازه: "
+
+msgid "Copy"
+msgstr "کپی"
+
+msgid "Copied!"
+msgstr "کپی شد!"
+
+msgid "Copy failed"
+msgstr "خطا در کپی کردن"
+
+msgid "This endpoint has no parameters"
+msgstr "این نقطه پایانی پارامتری ندارد"
+
+# Live Statistics
+msgid "Live Statistics"
+msgstr "آمار زنده"
+
+msgid "Refresh Statistics"
+msgstr "بروزرسانی آمار"
+
+msgid "Total Requests"
+msgstr "کل درخواست‌ها"
+
+msgid "Cache Hit Rate"
+msgstr "نرخ موفقیت کش"
+
+msgid "Average Response Time"
+msgstr "میانگین زمان پاسخ"
+
+msgid "Today's Requests"
+msgstr "درخواست‌های امروز"
+
+msgid "Total Products"
+msgstr "کل محصولات"
+
+msgid "Cache Entries"
+msgstr "ورودی‌های کش"
+
+# Recent Logs
+msgid "Recent Logs"
+msgstr "لاگ‌های اخیر"
+
+msgid "Refresh"
+msgstr "بروزرسانی"
+
+msgid "Clear Logs"
+msgstr "پاک کردن لاگ‌ها"
+
+msgid "All Requests"
+msgstr "همه درخواست‌ها"
+
+msgid "Successful"
+msgstr "موفق"
+
+msgid "Error"
+msgstr "خطا"
+
+msgid "Time"
+msgstr "زمان"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Previous"
+msgstr "قبلی"
+
+msgid "Next"
+msgstr "بعدی"
+
+msgid "No logs found"
+msgstr "هیچ لاگی یافت نشد"
+
+msgid "Page %d of %d"
+msgstr "صفحه %d از %d"
+
+# Parameter Examples
+msgid "Example: 123"
+msgstr "مثال: ۱۲۳"
+
+msgid "Product numeric ID"
+msgstr "شناسه عددی محصول"
+
+msgid "Example: 1"
+msgstr "مثال: ۱"
+
+msgid "Page number (default: 1)"
+msgstr "شماره صفحه (پیش‌فرض: ۱)"
+
+msgid "Example: 10"
+msgstr "مثال: ۱۰"
+
+msgid "Products per page (max: 100)"
+msgstr "تعداد محصولات در هر صفحه (حداکثر: ۱۰۰)"
+
+msgid "Show product variations"
+msgstr "نمایش تنوعات محصولات"
+
+msgid "Example: 1,2,3,4"
+msgstr "مثال: ۱،۲،۳،۴"
+
+msgid "Product IDs separated by comma"
+msgstr "شناسه‌های محصولات جدا شده با کاما"
+
+msgid "Example: product-1,product-2"
+msgstr "مثال: محصول-۱،محصول-۲"
+
+msgid "Product slugs separated by comma"
+msgstr "نام‌های محصولات جدا شده با کاما"
+
+# Error Messages
+msgid "Invalid title template syntax"
+msgstr "نحو قالب عنوان نامعتبر است"
+
+msgid "Configuration saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+msgid "Failed to save configuration"
+msgstr "ذخیره تنظیمات با خطا مواجه شد"
+
+msgid "Settings reset to defaults"
+msgstr "تنظیمات به حالت پیش‌فرض بازگردانده شد"
+
+msgid "Server connection error"
+msgstr "خطا در ارتباط با سرور"
+
+msgid "Access denied"
+msgstr "دسترسی مجاز نیست"
+
+msgid "Invalid request parameters"
+msgstr "پارامترهای درخواست نامعتبر"
+
+msgid "Product not found"
+msgstr "محصول یافت نشد"
+
+msgid "Cache error"
+msgstr "خطای کش"
+
+msgid "Database error"
+msgstr "خطای پایگاه داده"
+
+msgid "Rate limit exceeded"
+msgstr "محدودیت نرخ درخواست تجاوز شده"
+
+msgid "Request timeout"
+msgstr "مهلت زمانی درخواست تمام شد"
+
+# Success Messages
+msgid "Cache cleared successfully"
+msgstr "کش با موفقیت پاک شد"
+
+msgid "Statistics updated"
+msgstr "آمار بروزرسانی شد"
+
+msgid "Logs cleared successfully"
+msgstr "لاگ‌ها با موفقیت پاک شدند"
+
+msgid "Test completed successfully"
+msgstr "تست با موفقیت انجام شد"
+
+# Date and Time
+msgid "Today"
+msgstr "امروز"
+
+msgid "Yesterday"
+msgstr "دیروز"
+
+msgid "This Week"
+msgstr "این هفته"
+
+msgid "This Month"
+msgstr "این ماه"
+
+msgid "Last 30 Days"
+msgstr "۳۰ روز گذشته"
+
+msgid "All Time"
+msgstr "همه زمان‌ها"
+
+# Units
+msgid "seconds"
+msgstr "ثانیه"
+
+msgid "minutes"
+msgstr "دقیقه"
+
+msgid "hours"
+msgstr "ساعت"
+
+msgid "days"
+msgstr "روز"
+
+msgid "bytes"
+msgstr "بایت"
+
+msgid "KB"
+msgstr "کیلوبایت"
+
+msgid "MB"
+msgstr "مگابایت"
+
+msgid "GB"
+msgstr "گیگابایت"
+
+# Accessibility
+msgid "Skip to main content"
+msgstr "پرش به محتوای اصلی"
+
+msgid "Main navigation"
+msgstr "ناوبری اصلی"
+
+msgid "Settings form"
+msgstr "فرم تنظیمات"
+
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+msgid "Please wait"
+msgstr "لطفاً صبر کنید"
+
+msgid "Processing request"
+msgstr "در حال پردازش درخواست"
+
+# Help Text
+msgid "Need help?"
+msgstr "کمک نیاز دارید؟"
+
+msgid "Documentation"
+msgstr "مستندات"
+
+msgid "Support"
+msgstr "پشتیبانی"
+
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+msgid "Version"
+msgstr "نسخه"
+
+msgid "Last Updated"
+msgstr "آخرین بروزرسانی"
+
+
+# AI Agent Module Translations
+# ============================
+
+# AI Agent Tab
+msgid "AI Assistant"
+msgstr "دستیار هوشمند"
+
+msgid "Smart Assistant"
+msgstr "دستیار هوشمند"
+
+# Subscription Status
+msgid "Current Subscription: %s"
+msgstr "اشتراک فعلی: %s"
+
+msgid "Upgrade Plan"
+msgstr "ارتقای پلن"
+
+msgid "Free"
+msgstr "رایگان"
+
+msgid "Basic"
+msgstr "پایه"
+
+msgid "Pro"
+msgstr "حرفه‌ای"
+
+msgid "Enterprise"
+msgstr "سازمانی"
+
+# AI Agent Section Labels
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+msgid "LLM Configuration"
+msgstr "پیکربندی مدل زبانی"
+
+msgid "Analysis Settings"
+msgstr "تنظیمات تحلیل"
+
+msgid "Automation"
+msgstr "اتوماسیون"
+
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+# AI Agent Settings Fields
+msgid "Enable Module"
+msgstr "فعال‌سازی ماژول"
+
+msgid "Enable or disable the AI Sales Agent module"
+msgstr "فعال یا غیرفعال کردن ماژول دستیار فروش هوشمند"
+
+msgid "LLM Provider"
+msgstr "ارائه‌دهنده مدل زبانی"
+
+msgid "Select your LLM provider"
+msgstr "ارائه‌دهنده مدل زبانی خود را انتخاب کنید"
+
+msgid "LLM Endpoint"
+msgstr "آدرس API مدل زبانی"
+
+msgid "API endpoint URL for your LLM provider"
+msgstr "آدرس URL نقطه پایانی API ارائه‌دهنده مدل زبانی"
+
+msgid "API Key"
+msgstr "کلید API"
+
+msgid "Your LLM provider API key"
+msgstr "کلید API ارائه‌دهنده مدل زبانی شما"
+
+msgid "Model Name"
+msgstr "نام مدل"
+
+msgid "LLM model to use"
+msgstr "مدل زبانی مورد استفاده"
+
+msgid "Temperature"
+msgstr "دما"
+
+msgid "Controls randomness in responses (0-1)"
+msgstr "کنترل تصادفی بودن پاسخ‌ها (۰-۱)"
+
+msgid "Max Tokens"
+msgstr "حداکثر توکن"
+
+msgid "Maximum tokens in response"
+msgstr "حداکثر توکن در پاسخ"
+
+msgid "Request Timeout"
+msgstr "مهلت زمانی درخواست"
+
+msgid "Timeout in seconds for LLM requests"
+msgstr "مهلت زمانی به ثانیه برای درخواست‌های مدل زبانی"
+
+# Analysis Settings
+msgid "Analysis Frequency"
+msgstr "تناوب تحلیل"
+
+msgid "How often to run automatic analysis"
+msgstr "هر چند وقت یکبار تحلیل خودکار اجرا شود"
+
+msgid "Daily"
+msgstr "روزانه"
+
+msgid "Twice Daily"
+msgstr "دو بار در روز"
+
+msgid "Weekly"
+msgstr "هفتگی"
+
+msgid "Products per Batch"
+msgstr "محصولات در هر دسته"
+
+msgid "Number of products to analyze per batch"
+msgstr "تعداد محصولات برای تحلیل در هر دسته"
+
+msgid "Customers per Batch"
+msgstr "مشتریان در هر دسته"
+
+msgid "Number of customers to analyze per batch"
+msgstr "تعداد مشتریان برای تحلیل در هر دسته"
+
+msgid "Minimum Confidence"
+msgstr "حداقل اطمینان"
+
+msgid "Minimum confidence score for recommendations"
+msgstr "حداقل امتیاز اطمینان برای پیشنهادات"
+
+# Automation Settings
+msgid "Auto Execute"
+msgstr "اجرای خودکار"
+
+msgid "Automatically execute approved actions"
+msgstr "اجرای خودکار اقدامات تأیید شده"
+
+msgid "Require Approval"
+msgstr "نیاز به تأیید"
+
+msgid "Require manual approval for actions"
+msgstr "نیاز به تأیید دستی برای اقدامات"
+
+msgid "Allowed Action Types"
+msgstr "انواع اقدامات مجاز"
+
+msgid "Types of actions the AI can suggest"
+msgstr "انواع اقداماتی که هوش مصنوعی می‌تواند پیشنهاد دهد"
+
+msgid "Price Adjustment"
+msgstr "تنظیم قیمت"
+
+msgid "Inventory Alert"
+msgstr "هشدار موجودی"
+
+msgid "Promotion Suggestion"
+msgstr "پیشنهاد تخفیف"
+
+msgid "Customer Outreach"
+msgstr "ارتباط با مشتری"
+
+msgid "Product Bundling"
+msgstr "بسته‌بندی محصول"
+
+msgid "Active Hours"
+msgstr "ساعات فعال"
+
+msgid "Hours when automation is active"
+msgstr "ساعاتی که اتوماسیون فعال است"
+
+# Notification Settings
+msgid "Email Notifications"
+msgstr "اعلان‌های ایمیل"
+
+msgid "Send email notifications for important events"
+msgstr "ارسال اعلان ایمیل برای رویدادهای مهم"
+
+msgid "Notification Email"
+msgstr "ایمیل اعلان"
+
+msgid "Email address for notifications"
+msgstr "آدرس ایمیل برای اعلان‌ها"
+
+msgid "Daily Summary"
+msgstr "خلاصه روزانه"
+
+msgid "Send daily summary email"
+msgstr "ارسال ایمیل خلاصه روزانه"
+
+msgid "Alert on High Priority"
+msgstr "هشدار برای اولویت بالا"
+
+msgid "Send immediate alerts for high priority actions"
+msgstr "ارسال هشدار فوری برای اقدامات با اولویت بالا"
+
+# AI Agent Actions
+msgid "Test LLM Connection"
+msgstr "تست اتصال LLM"
+
+msgid "Run Analysis"
+msgstr "اجرای تحلیل"
+
+msgid "Testing..."
+msgstr "در حال تست..."
+
+msgid "Analyzing..."
+msgstr "در حال تحلیل..."
+
+msgid "Connection successful"
+msgstr "اتصال موفق"
+
+msgid "Connection failed"
+msgstr "اتصال ناموفق"
+
+msgid "Analysis completed successfully"
+msgstr "تحلیل با موفقیت انجام شد"
+
+msgid "Analysis failed"
+msgstr "تحلیل ناموفق"
+
+# Feature Badges
+msgid "Requires upgrade"
+msgstr "نیاز به ارتقا"
+
+# AI Agent Status Messages
+msgid "AI Agent module enabled"
+msgstr "ماژول دستیار هوشمند فعال شد"
+
+msgid "AI Agent module disabled"
+msgstr "ماژول دستیار هوشمند غیرفعال شد"
+
+msgid "Settings saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+msgid "Settings reset to defaults"
+msgstr "تنظیمات به حالت پیش‌فرض بازگردانده شد"
+
+msgid "Unauthorized"
+msgstr "غیرمجاز"
+
+msgid "No settings provided"
+msgstr "تنظیماتی ارائه نشده"
+
+msgid "%d settings saved successfully"
+msgstr "%d تنظیم با موفقیت ذخیره شد"
+
+msgid "Some settings could not be saved"
+msgstr "برخی تنظیمات ذخیره نشدند"
+
+msgid "%d settings imported successfully"
+msgstr "%d تنظیم با موفقیت وارد شد"
+
+msgid "Some settings could not be imported"
+msgstr "برخی تنظیمات وارد نشدند"
+
+msgid "No settings data provided"
+msgstr "داده تنظیماتی ارائه نشده"
+
+msgid "Invalid JSON format"
+msgstr "فرمت JSON نامعتبر"
+
+# AI Agent Dashboard
+msgid "AI Agent Dashboard"
+msgstr "داشبورد دستیار هوشمند"
+
+msgid "Pending Actions"
+msgstr "اقدامات در انتظار"
+
+msgid "Completed Actions"
+msgstr "اقدامات انجام شده"
+
+msgid "Success Rate"
+msgstr "نرخ موفقیت"
+
+msgid "Total Analyses"
+msgstr "کل تحلیل‌ها"
+
+msgid "Products Analyzed"
+msgstr "محصولات تحلیل شده"
+
+msgid "Customers Analyzed"
+msgstr "مشتریان تحلیل شده"
+
+msgid "Last Analysis"
+msgstr "آخرین تحلیل"
+
+msgid "Next Scheduled"
+msgstr "زمان‌بندی بعدی"
+
+# AI Agent Actions List
+msgid "Action ID"
+msgstr "شناسه اقدام"
+
+msgid "Action Type"
+msgstr "نوع اقدام"
+
+msgid "Priority"
+msgstr "اولویت"
+
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+msgid "Approve"
+msgstr "تأیید"
+
+msgid "Execute"
+msgstr "اجرا"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "View Details"
+msgstr "مشاهده جزئیات"
+
+msgid "No actions found"
+msgstr "اقدامی یافت نشد"
+
+msgid "Action approved"
+msgstr "اقدام تأیید شد"
+
+msgid "Action executed"
+msgstr "اقدام اجرا شد"
+
+msgid "Action cancelled"
+msgstr "اقدام لغو شد"
+
+# AI Agent Health Check
+msgid "System Health"
+msgstr "سلامت سیستم"
+
+msgid "LLM Connection"
+msgstr "اتصال LLM"
+
+msgid "Database"
+msgstr "پایگاه داده"
+
+msgid "Cache"
+msgstr "کش"
+
+msgid "Healthy"
+msgstr "سالم"
+
+msgid "Warning"
+msgstr "هشدار"
+
+msgid "Critical"
+msgstr "بحرانی"
+
+msgid "Unknown"
+msgstr "نامشخص"
+
+# WP-CLI Messages
+msgid "AI Agent Module Status"
+msgstr "وضعیت ماژول دستیار هوشمند"
+
+msgid "Enabled"
+msgstr "فعال"
+
+msgid "Disabled"
+msgstr "غیرفعال"
+
+msgid "Yes"
+msgstr "بله"
+
+msgid "No"
+msgstr "خیر"
+
+msgid "Running analysis..."
+msgstr "در حال اجرای تحلیل..."
+
+msgid "Analysis completed"
+msgstr "تحلیل انجام شد"
+
+msgid "Database migrations completed"
+msgstr "مهاجرت‌های پایگاه داده انجام شد"
+
+msgid "Cleaned up %d old records"
+msgstr "%d رکورد قدیمی پاک شد"
+
+# Subscription Tiers
+msgid "Free Tier"
+msgstr "پلن رایگان"
+
+msgid "Basic Tier"
+msgstr "پلن پایه"
+
+msgid "Pro Tier"
+msgstr "پلن حرفه‌ای"
+
+msgid "Enterprise Tier"
+msgstr "پلن سازمانی"
+
+msgid "Upgrade to unlock this feature"
+msgstr "برای باز کردن این قابلیت ارتقا دهید"
+
+msgid "Feature available in %s plan"
+msgstr "این قابلیت در پلن %s موجود است"
+
+# Error Messages
+msgid "An error occurred"
+msgstr "خطایی رخ داد"
+
+msgid "Operation completed successfully"
+msgstr "عملیات با موفقیت انجام شد"
+
+msgid "Are you sure?"
+msgstr "آیا مطمئن هستید؟"
+
+msgid "Analysis running..."
+msgstr "تحلیل در حال اجرا..."
+
+msgid "Server communication error"
+msgstr "خطا در ارتباط با سرور"
+
+
+# Additional AI Agent translations
+msgid "Save AI Agent Settings"
+msgstr "ذخیره تنظیمات دستیار هوشمند"
+
+msgid "Settings saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+msgid "Error saving settings"
+msgstr "خطا در ذخیره تنظیمات"
+
+msgid "Settings reset to defaults"
+msgstr "تنظیمات به حالت پیش‌فرض بازگردانده شد"
+
+msgid "Are you sure you want to reset AI Agent settings to defaults?"
+msgstr "آیا مطمئن هستید که می‌خواهید تنظیمات دستیار هوشمند را به حالت پیش‌فرض بازگردانید؟"

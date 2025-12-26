@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "name": "hsm/wplite",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bahmankhah/wplite.git",
+                "reference": "5d239cfbea46a9362ba25c6883b2831a14b8dae1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bahmankhah/wplite/zipball/5d239cfbea46a9362ba25c6883b2831a14b8dae1",
+                "reference": "5d239cfbea46a9362ba25c6883b2831a14b8dae1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2025-12-26T21:30:59+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Helpers/main.php"
+                ],
+                "psr-4": {
+                    "WPLite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WPLite WordPress Framework",
+            "support": {
+                "issues": "https://github.com/bahmankhah/wplite/issues",
+                "source": "https://github.com/bahmankhah/wplite/tree/main"
+            },
+            "install-path": "../hsm/wplite"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

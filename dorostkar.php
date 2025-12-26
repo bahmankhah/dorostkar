@@ -28,5 +28,4 @@ require __DIR__ . '/vendor/autoload.php';
 use Dorostkar\WPLite\Facades\App;
 App::setPluginFile(__FILE__);
 App::setPluginPath(plugin_dir_path(__FILE__));
-appLogger('booting dorostkar');
 App::boot();

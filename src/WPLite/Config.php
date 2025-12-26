@@ -16,7 +16,7 @@ class Config{
     }
     
     public static function get($configName, $default = null){
-        return $GLOBALS['wplite_configs'][$configName] ?? $default;
+        return $GLOBALS[md5(App::pluginPath()).'_wplite_configs'][$configName] ?? $default;
     }
     
 }

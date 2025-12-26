@@ -25,8 +25,8 @@ class AppServiceProvider extends Provider
     private function registerAIAgentModule()
     {
         // Check master switch - if disabled, skip entire module
-        if (!defined('FOROOSHYAR_AIAGENT_ENABLED') || !FOROOSHYAR_AIAGENT_ENABLED) {
-            appLogger('Forooshyar: AI Agent Module disabled via FOROOSHYAR_AIAGENT_ENABLED constant');
+        if (!defined('DOROSTKAR_AIAGENT_ENABLED') || !DOROSTKAR_AIAGENT_ENABLED) {
+            appLogger('Forooshyar: AI Agent Module disabled via DOROSTKAR_AIAGENT_ENABLED constant');
             return;
         }
         
@@ -63,7 +63,7 @@ class AppServiceProvider extends Provider
     public function boot() {
         
         // Boot AI Agent Module (only if enabled)
-        if ($this->aiAgentModule !== null && defined('FOROOSHYAR_AIAGENT_ENABLED') && FOROOSHYAR_AIAGENT_ENABLED) {
+        if ($this->aiAgentModule !== null && defined('DOROSTKAR_AIAGENT_ENABLED') && DOROSTKAR_AIAGENT_ENABLED) {
             $this->aiAgentModule->boot();
             appLogger('Forooshyar: AI Agent Module booted');
         }

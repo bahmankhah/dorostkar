@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) exit;
  * Set to false to completely disable the AI Agent module (menus, settings, everything)
  */
 if (!defined('DOROSTKAR_AIAGENT_ENABLED')) {
-    define('DOROSTKAR_AIAGENT_ENABLED', false); // Disabled by default - change to true to enable
+    define('DOROSTKAR_AIAGENT_ENABLED', true); // Disabled by default - change to true to enable
 }
 
 // Autoloader will be set up after WPLite installation

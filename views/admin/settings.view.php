@@ -71,14 +71,10 @@ if (!defined('ABSPATH')) {
     border: 1px solid rgba(30, 115, 190, 0.3);
 }
 
-.dorostkar-nav-tabs {
-    margin-bottom: 0;
-}
-
 .dorostkar-tab-content {
     background: #fff;
     border: 1px solid #ccd0d4;
-    border-top: none;
+    border-radius: 4px;
     padding: 20px;
     min-height: 400px;
 }

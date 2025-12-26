@@ -26,10 +26,10 @@ class DatabaseService
     public function __construct()
     {
         global $wpdb;
-        $this->analysisTable = $wpdb->prefix . 'forooshyar_aiagent_analysis';
-        $this->actionsTable = $wpdb->prefix . 'forooshyar_aiagent_actions';
-        $this->contextTable = $wpdb->prefix . 'forooshyar_aiagent_context';
-        $this->usageTable = $wpdb->prefix . 'forooshyar_aiagent_usage';
+        $this->analysisTable = $wpdb->prefix . 'dorostkar_aiagent_analysis';
+        $this->actionsTable = $wpdb->prefix . 'dorostkar_aiagent_actions';
+        $this->contextTable = $wpdb->prefix . 'dorostkar_aiagent_context';
+        $this->usageTable = $wpdb->prefix . 'dorostkar_aiagent_usage';
         // Note: scheduledTable removed - now using WooCommerce Action Scheduler
     }
 

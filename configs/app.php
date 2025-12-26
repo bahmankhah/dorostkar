@@ -14,6 +14,6 @@ return [
     'name'=>'donapp-core',
     'url'=>getenv('APP_URL'),
     'api'=> [
-        'namespace'=>'forooshyar/v1',
+        'namespace'=>'dorostkar/v1',
     ],
 ];

@@ -214,7 +214,7 @@ class SubscriptionManager implements SubscriptionInterface
     public function incrementUsage($limitType, $count = 1)
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_usage';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_usage';
         $today = current_time('Y-m-d');
 
         $existing = $wpdb->get_var($wpdb->prepare(
@@ -260,7 +260,7 @@ class SubscriptionManager implements SubscriptionInterface
         }
 
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_usage';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_usage';
         $today = current_time('Y-m-d');
 
         $count = $wpdb->get_var($wpdb->prepare(
@@ -547,7 +547,7 @@ class SubscriptionManager implements SubscriptionInterface
     public function getUsageHistory($days = 30)
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_usage';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_usage';
         $startDate = date('Y-m-d', strtotime("-{$days} days"));
 
         $results = $wpdb->get_results($wpdb->prepare(
@@ -578,7 +578,7 @@ class SubscriptionManager implements SubscriptionInterface
     public function resetDailyUsage()
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_usage';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_usage';
         $today = current_time('Y-m-d');
 
         $result = $wpdb->delete(

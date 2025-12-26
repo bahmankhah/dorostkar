@@ -44,7 +44,7 @@ class Migrations
     private function createAnalysisTable()
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_analysis';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_analysis';
 
         $sql = "CREATE TABLE {$table} (
             id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -79,7 +79,7 @@ class Migrations
     private function createActionsTable()
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_actions';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_actions';
 
         $sql = "CREATE TABLE {$table} (
             id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -114,7 +114,7 @@ class Migrations
     private function createContextTable()
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_context';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_context';
 
         $sql = "CREATE TABLE {$table} (
             id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -142,7 +142,7 @@ class Migrations
     private function createUsageTable()
     {
         global $wpdb;
-        $table = $wpdb->prefix . 'forooshyar_aiagent_usage';
+        $table = $wpdb->prefix . 'dorostkar_aiagent_usage';
 
         $sql = "CREATE TABLE {$table} (
             id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -182,10 +182,10 @@ class Migrations
         global $wpdb;
 
         $tables = [
-            $wpdb->prefix . 'forooshyar_aiagent_analysis',
-            $wpdb->prefix . 'forooshyar_aiagent_actions',
-            $wpdb->prefix . 'forooshyar_aiagent_context',
-            $wpdb->prefix . 'forooshyar_aiagent_usage',
+            $wpdb->prefix . 'dorostkar_aiagent_analysis',
+            $wpdb->prefix . 'dorostkar_aiagent_actions',
+            $wpdb->prefix . 'dorostkar_aiagent_context',
+            $wpdb->prefix . 'dorostkar_aiagent_usage',
             // Note: aiagent_scheduled table removed - was using WooCommerce Action Scheduler
         ];
 

@@ -19,10 +19,10 @@ class Schema
         global $wpdb;
 
         return [
-            'analysis' => $wpdb->prefix . 'forooshyar_aiagent_analysis',
-            'actions' => $wpdb->prefix . 'forooshyar_aiagent_actions',
-            'context' => $wpdb->prefix . 'forooshyar_aiagent_context',
-            'usage' => $wpdb->prefix . 'forooshyar_aiagent_usage',
+            'analysis' => $wpdb->prefix . 'dorostkar_aiagent_analysis',
+            'actions' => $wpdb->prefix . 'dorostkar_aiagent_actions',
+            'context' => $wpdb->prefix . 'dorostkar_aiagent_context',
+            'usage' => $wpdb->prefix . 'dorostkar_aiagent_usage',
             // Note: 'scheduled' table removed - now using WooCommerce Action Scheduler
         ];
     }

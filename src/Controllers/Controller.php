@@ -1,6 +1,6 @@
 <?php
 
-namespace Forooshyar\Controllers;
+namespace Dorostkar\Controllers;
 
 abstract class Controller
 {

@@ -1,8 +1,7 @@
 <?php
 
-use Forooshyar\Controllers\AdminController;
-use Forooshyar\Controllers\AIAgentController;
-use Forooshyar\WPLite\Facades\Route;
+use Dorostkar\Controllers\AIAgentController;
+use Dorostkar\WPLite\Facades\Route;
 
 Route::ajax(function ($router) {
     // ============================================

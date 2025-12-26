@@ -47,17 +47,36 @@ class AIAgentAdminController
      */
     public function registerMenus()
     {
-        // Main AI Agent submenu under parent plugin (Dashboard)
-        add_submenu_page(
-            'dorostkar',
-            __('دستیار فروش هوشمند', 'dorostkar'),
+        // منوی اصلی دستیار هوشمند
+        add_menu_page(
             __('دستیار هوشمند', 'dorostkar'),
+            __('دستیار هوشمند', 'dorostkar'),
+            'manage_woocommerce',
+            'dorostkar-ai-agent',
+            [$this, 'dashboardPage'],
+            'dashicons-superhero-alt',
+            56
+        );
+
+        // زیرمنوی داشبورد
+        add_submenu_page(
+            'dorostkar-ai-agent',
+            __('داشبورد', 'dorostkar'),
+            __('داشبورد', 'dorostkar'),
             'manage_woocommerce',
             'dorostkar-ai-agent',
             [$this, 'dashboardPage']
         );
-        
-        // Note: AI Settings menu removed - settings are now in the main settings page as a tab
+
+        // زیرمنوی تنظیمات
+        add_submenu_page(
+            'dorostkar-ai-agent',
+            __('تنظیمات', 'dorostkar'),
+            __('تنظیمات', 'dorostkar'),
+            'manage_woocommerce',
+            'dorostkar-ai-agent-settings',
+            [$this, 'settingsPage']
+        );
     }
 
     /**
@@ -139,17 +158,17 @@ class AIAgentAdminController
     }
 
     /**
-     * Render settings page
-     * 
-     * Note: AI Agent settings are now integrated as a tab in the main settings page.
-     * This redirects to the main settings page with the aiagent tab selected.
+     * رندر صفحه تنظیمات
      *
      * @return void
      */
     public function settingsPage()
     {
-        // Redirect to main settings page with aiagent tab
-        wp_redirect(admin_url('admin.php?page=dorostkar&tab=aiagent'));
-        exit;
+        $current_tab = isset($_GET['tab']) ? sanitize_text_field($_GET['tab']) : 'aiagent';
+        
+        View::render('admin.settings', [
+            'page_title' => __('تنظیمات دستیار هوشمند', 'dorostkar'),
+            'current_tab' => $current_tab,
+        ]);
     }
 }

@@ -27,7 +27,7 @@ class OllamaProvider implements LLMProviderInterface
     public function __construct(array $config)
     {
         $this->config = array_merge([
-            'endpoints' => 'http://localhost:11434/api/generate',
+            'endpoint' => 'http://localhost:11434/api/generate',
             'model' => 'llama2',
             'temperature' => 0.7,
             'max_tokens' => 2000,
